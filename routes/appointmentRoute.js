@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Appointment = require('../models/Appointment');
-
+// Appionment Route
 // POST: Create a new appointment
 router.post('/appointment', async (req, res) => {
     const { name, contact, date, subject, message } = req.body;
