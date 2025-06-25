@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+// clinic js
 const HospitalSchema = new mongoose.Schema({
   logo: {
     type: String,
