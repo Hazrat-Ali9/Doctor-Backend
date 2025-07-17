@@ -1,5 +1,5 @@
 const express = require("express");
-
+//contact Route
 const { contactFormSubmission } = require("../controllers/contactController");
 
 const router = express.Router();
