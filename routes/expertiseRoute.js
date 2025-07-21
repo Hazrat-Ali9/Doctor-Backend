@@ -1,7 +1,7 @@
 // routes/expertise.routes.js
 const express = require('express');
 const Expertise = require('../models/Expertise');
-
+// Expertise ROute
 const router = express.Router();
 
 // Create Expertise
